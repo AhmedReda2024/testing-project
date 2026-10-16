@@ -1,0 +1,187 @@
+/* Global Styles  */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto/static/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Oswald-Bold";
+  src: url(../fonts/Oswald/static/Oswald-Bold.ttf);
+}
+
+body {
+  font-family: "Roboto-Medium", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald-Bold", sans-serif;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.py-40 {
+  padding: 40px 0;
+}
+.px-40 {
+  padding: 0 40px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pr-40 {
+  padding-right: 40px;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+
+.header {
+  height: 100vh;
+  background-image: url(../images/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.header .header-content {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+.header .header-content button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  font-family: "Roboto-Medium", sans-serif;
+}
+
+.header p {
+  font-size: 16px;
+  font-style: normal;
+}
+
+/* Our Products Styles */
+
+.our-products .product-card {
+  width: 25%;
+  padding: 10px;
+}
+
+/* Features Styles */
+
+.features {
+  background-color: #f1f1f1;
+}
+
+/* Gallery Styles */
+
+.gallery .gallery-card {
+  width: 33.333%;
+  padding: 15px;
+}
+
+.gallery .gallery-card .inner {
+  background-color: #978869;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.gallery .gallery-card .gallery-caption {
+  padding: 10px;
+  color: #fff;
+}
+
+/* Services Styles */
+
+.services {
+  background-color: #f1f1f1;
+}
+
+.services .services-card {
+  width: 25%;
+  padding: 15px;
+}
+
+.services .services-card img {
+  border-radius: 20px;
+}
+
+.services .services-card .inner {
+  position: relative;
+}
+
+.services .services-card .services-content {
+  background-color: rgba(0, 0, 0, 0.523);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  color: #fff;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.services .services-card .services-content button {
+  background-color: #978869;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+}
